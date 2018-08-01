@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14112" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="MenuTableCell" rowHeight="194" id="KGk-i7-Jjw" customClass="MenuTableCell" customModule="MyShot" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="194"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="193.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CPj-JX-jID">
+                        <rect key="frame" x="100" y="16" width="120" height="120"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="CPj-JX-jID" secondAttribute="height" multiplier="1:1" id="fIc-9l-J6d"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jno-Ec-tGs">
+                        <rect key="frame" x="16" y="144" width="288" height="35"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="CPj-JX-jID" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="84" id="7jG-mW-Uie"/>
+                    <constraint firstItem="jno-Ec-tGs" firstAttribute="top" secondItem="CPj-JX-jID" secondAttribute="bottom" constant="8" symbolic="YES" id="KMk-MY-Qz9"/>
+                    <constraint firstItem="CPj-JX-jID" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="TiE-iU-BTU"/>
+                    <constraint firstItem="CPj-JX-jID" firstAttribute="centerX" secondItem="jno-Ec-tGs" secondAttribute="centerX" id="VGh-z5-QMj"/>
+                    <constraint firstItem="jno-Ec-tGs" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="hB1-bQ-l59"/>
+                    <constraint firstItem="jno-Ec-tGs" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="hvb-hR-r4h"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="jno-Ec-tGs" secondAttribute="bottom" constant="4" id="t69-ph-Xqb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="itemLabel" destination="jno-Ec-tGs" id="8as-tK-Kuk"/>
+                <outlet property="menuImageView" destination="CPj-JX-jID" id="eod-c6-DRc"/>
+                <outlet property="setColorView" destination="H2p-sc-9uM" id="4aA-GE-drM"/>
+            </connections>
+            <point key="canvasLocation" x="32" y="149"/>
+        </tableViewCell>
+    </objects>
+</document>

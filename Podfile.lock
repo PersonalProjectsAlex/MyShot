@@ -1,0 +1,232 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - BWWalkthrough (2.1.2)
+  - CodableAlamofire (1.1.0):
+    - Alamofire (~> 4.0)
+  - Cosmos (15.0.0)
+  - DynamicBlurView (2.0.2)
+  - FacebookCore (0.3.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.27)
+  - FacebookLogin (0.3.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.3)
+    - FBSDKCoreKit (~> 4.27)
+    - FBSDKLoginKit (~> 4.27)
+  - FBSDKCoreKit (4.32.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.32.0):
+    - FBSDKCoreKit
+  - Firebase (3.17.0):
+    - Firebase/Core (= 3.17.0)
+  - Firebase/Core (3.17.0):
+    - FirebaseAnalytics (= 3.9.0)
+    - FirebaseCore (= 3.6.0)
+  - Firebase/Messaging (3.17.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.3)
+  - Firebase/Storage (3.17.0):
+    - Firebase/Core
+    - FirebaseStorage (= 1.1.0)
+  - FirebaseAnalytics (3.9.0):
+    - FirebaseCore (~> 3.6)
+    - FirebaseInstanceID (~> 1.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseCore (3.6.0):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseInstanceID (1.0.10):
+    - FirebaseCore (~> 3.6)
+  - FirebaseMessaging (1.2.3):
+    - FirebaseAnalytics (~> 3.8)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseStorage (1.1.0):
+    - FirebaseAnalytics (~> 3.7)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - Google/Core (3.1.0):
+    - FirebaseAnalytics (~> 3.2)
+  - Google/SignIn (3.1.0):
+    - Google/Core
+    - GoogleSignIn (~> 4.0)
+  - GoogleSignIn (4.1.2):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMOAuth2 (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.1.4)":
+    - GoogleToolboxForMac/DebugUtils (= 2.1.4)
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.1.4)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.1.4)"
+  - GTMOAuth2 (1.1.6):
+    - GTMSessionFetcher (~> 1.1)
+  - GTMSessionFetcher (1.1.15):
+    - GTMSessionFetcher/Full (= 1.1.15)
+  - GTMSessionFetcher/Core (1.1.15)
+  - GTMSessionFetcher/Full (1.1.15):
+    - GTMSessionFetcher/Core (= 1.1.15)
+  - Hero (1.2.0)
+  - HexColors (6.0.0)
+  - ImageSlideshow (1.5.3):
+    - ImageSlideshow/Core (= 1.5.3)
+  - ImageSlideshow/Core (1.5.3)
+  - ImageSlideshow/Kingfisher (1.5.3):
+    - ImageSlideshow/Core
+    - Kingfisher (> 3.0)
+  - IQKeyboardManagerSwift (5.0.8)
+  - Kingfisher (4.7.0)
+  - lottie-ios (2.5.0)
+  - LTMorphingLabel (0.5.6)
+  - NVActivityIndicatorView (4.2.1):
+    - NVActivityIndicatorView/Presenter (= 4.2.1)
+  - NVActivityIndicatorView/Presenter (4.2.1)
+  - PopupDialog (0.7.1):
+    - DynamicBlurView (~> 2.0)
+  - Protobuf (3.6.0)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SideMenu (3.1.5)
+  - Spring (1.0.5)
+  - SwiftMessages (4.1.4):
+    - SwiftMessages/App (= 4.1.4)
+  - SwiftMessages/App (4.1.4)
+  - SwiftyBeaver (1.5.2)
+  - TweeTextField (1.2.0)
+  - XLPagerTabStrip (8.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - BWWalkthrough
+  - CodableAlamofire
+  - Cosmos
+  - FacebookCore
+  - FacebookLogin
+  - Firebase
+  - Firebase/Core
+  - Firebase/Messaging
+  - Firebase/Storage
+  - Google/SignIn
+  - Hero
+  - HexColors
+  - ImageSlideshow (~> 1.5)
+  - ImageSlideshow/Kingfisher
+  - IQKeyboardManagerSwift (~> 5.0)
+  - lottie-ios
+  - LTMorphingLabel
+  - NVActivityIndicatorView
+  - PopupDialog (~> 0.7)
+  - SDWebImage (~> 4.0)
+  - SideMenu
+  - Spring (from `https://github.com/MengTo/Spring.git`)
+  - SwiftMessages
+  - SwiftyBeaver
+  - TweeTextField
+  - XLPagerTabStrip (~> 8.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - BWWalkthrough
+    - CodableAlamofire
+    - Cosmos
+    - DynamicBlurView
+    - FacebookCore
+    - FacebookLogin
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseStorage
+    - Google
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMOAuth2
+    - GTMSessionFetcher
+    - Hero
+    - HexColors
+    - ImageSlideshow
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - lottie-ios
+    - LTMorphingLabel
+    - NVActivityIndicatorView
+    - PopupDialog
+    - Protobuf
+    - SDWebImage
+    - SideMenu
+    - SwiftMessages
+    - SwiftyBeaver
+    - TweeTextField
+    - XLPagerTabStrip
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/MengTo/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: c540239f3590bbaf4a35c3959c329dd5ed4e3eee
+    :git: https://github.com/MengTo/Spring.git
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  BWWalkthrough: 6b18dc688ff6b7168383fee07fe199ccaad7e9f7
+  CodableAlamofire: e2d2edcec7cf413f7862c30c8fa98eded27a83f9
+  Cosmos: a6dbd3d0baa0cc8f51f8598f7508d5a09d0a9ade
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  FacebookCore: 3ffa190a3f1f96cec0e44d3fc221bc322c595ffa
+  FacebookLogin: 0af839ea858faef99550d16596b87b4a8e8906e6
+  FBSDKCoreKit: 55d7f2ac45d9c4b9b6119f4e43900fe84b9b7b1b
+  FBSDKLoginKit: 32ac05c2a59952c363c2e85aafa8f73ba93bcbad
+  Firebase: 4b66b5b59c43edac745b87f0c87e42cdd0279c13
+  FirebaseAnalytics: e5fe8486efc01bec33f6bf82e2fa9fce4b124052
+  FirebaseCore: 9691ee2ade70c098d7cf92440f4303f16d83ca75
+  FirebaseInstanceID: b9eedd6846fb5e1f0f7279e1deaa7a7e4cf8392e
+  FirebaseMessaging: 753d05a925e9eb8eadd09a0ffc9b808578b72fac
+  FirebaseStorage: a5c55b23741a49a72af8f30f95b3bb5ddbeda12d
+  Google: 98da4b1a60ed0beb80a290387a28333406a1eb90
+  GoogleSignIn: d9ef55b10f0aa401a5de2747f59b725e4b9732ac
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  GTMOAuth2: c77fe325e4acd453837e72d91e3b5f13116857b2
+  GTMSessionFetcher: 5fa5b80fd20e439ef5f545fb2cb3ca6c6714caa2
+  Hero: 33dadf2cd1c98af71e213dcbc2902e6e03622a4e
+  HexColors: f8c66339541a74bb08905bfe7cd4f8cc85e9e173
+  ImageSlideshow: 24a1184909f589379ba2527ebcc77996881bb1f2
+  IQKeyboardManagerSwift: 2e7dc7f98c111458c1ea2b373f893e8cf95e2b97
+  Kingfisher: da6b005aa96d37698e3e4f1ccfe96a5b9bbf27d6
+  lottie-ios: d699fdee68d7b63e721d949388b015fef1aaa4ac
+  LTMorphingLabel: bdb51d4682e9822da89da6f567bd8aa456fd6650
+  NVActivityIndicatorView: 8068ba3ad39cb44cbaab25d89ff2546b3f092681
+  PopupDialog: 39598b7d41719f5c025b4b70e62728bae7734fef
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  Spring: 3c7666eccefdeb87140008dc81043f89f8dbb787
+  SwiftMessages: 2c33fdee8b8f38dfc7e1036684456b505891da8c
+  SwiftyBeaver: 85daaaa2b3ae6e31b7b55c99430e8b91dac088af
+  TweeTextField: 367d1393434018cfc8e40ad76087855b73253d99
+  XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
+
+PODFILE CHECKSUM: e561373e2bba12c73b0b2b4162b504f7cedf0d80
+
+COCOAPODS: 1.5.2
